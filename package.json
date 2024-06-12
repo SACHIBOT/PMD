@@ -1,15 +1,15 @@
 {
-"name": "PMD-FIX-V2",
+"name": "PMD",
 "version": "2.1.1",
-"description": "PMD-FIX-V2 has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+"description": "PMD  has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
 "main": "start.js",
 "scripts": {
-"start": "pm2 start start.js --deep-monitoring --attach --name pmdfix",
-"stop": "pm2 stop pmdfix",
-"restart": "pm2 restart pmdfix"
+"start": "pm2 start start.js --deep-monitoring --attach --name pmd",
+"stop": "pm2 stop pmd",
+"restart": "pm2 restart pmd"
 },
 "dependencies": {
-"@whiskeysockets/baileys": "git+https://github.com/PMD-API-UPDATE/Baileys-6.6.0.git",
+"@whiskeysockets/baileys": "git+https://github.com/REX62-BackupOne/Baileys-6.6.0.git",
 "@adiwajshing/keyed-db": "^0.2.4",
 "wa_set_pkg": "1.0.1",
 "gemini-ai" : "latest",
